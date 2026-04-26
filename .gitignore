@@ -1,0 +1,17 @@
+# --- Java ---
+*.class
+*.jar
+.vscode/
+.project
+.classpath
+bin/
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# --- Otros ---
+.DS_Store
+*.log
