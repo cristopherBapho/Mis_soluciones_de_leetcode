@@ -11,24 +11,24 @@ public:
         int m1 = 0, n1 = 0,k =0;
         while (m1 < m && n1 < n){
             if (nums1[m1]< nums2[n1]){
-                newNum[k]=nums1[m1];    
+                newNum[k]=nums1[m1];
                 m1++;
                 k++;
             }else if(nums2[n1] < nums1[m1]){
-                newNum[k]=nums2[n1];    
+                newNum[k]=nums2[n1];
                 n1++;
                 k++;
             }else{
-                newNum[k]=nums1[m1];    
+                newNum[k]=nums1[m1];
                 m1++;
                 k++;
-                newNum[k]=nums2[n1];    
+                newNum[k]=nums2[n1];
                 n1++;
                 k++;
             }
         }
         while (m1 < m){
-            newNum[k]=nums1[m1];    
+            newNum[k]=nums1[m1];
             m1++;
             k++;
         }
@@ -41,7 +41,7 @@ public:
             cout << newNum[i] << " " <<endl;
         }
         /*
-        solusion en leetcode 
+        solusion en leetcode
            for (int i = 0; i< (m+n); i ++){
             nums1[i] = newNum[i];
         }
@@ -55,7 +55,6 @@ int main(){
     int m = 3, n = 3;
     Solution sol;
     sol.merge(nums1, m, nums2, n);
-    
+
     return 0;
 }
-
