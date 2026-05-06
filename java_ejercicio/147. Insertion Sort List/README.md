@@ -1,0 +1,1 @@
+basicamente es tomar un numeroe inventirlo me dio error con un numero muy grande ya que tiene overrflow que hace que la memoria se desborde 
